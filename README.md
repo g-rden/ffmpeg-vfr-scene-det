@@ -1,5 +1,5 @@
 # ffmpeg-vfr-scene-det
-Reducing video via scene detection to essential frames and encoding it with variable fps. This will not work well with most video content.
+Reducing video via [scene detection](https://ffmpeg.org/ffmpeg-all.html#select_002c-aselect) to essential frames and encoding it with variable fps. This will not work well with most video contentand is very unorthodox.
 
 # extract frames
 Make the script executable: e.g. `chmod +x getframes.sh`.
