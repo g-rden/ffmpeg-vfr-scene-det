@@ -15,7 +15,7 @@ Set scene value for more or less aggressive scene detection:
 e.g. 0.01
 
 # encode extracted frames with variable fps
-`ffmpeg -f concat -safe 0 -i concat.txt -vsync passthrough [output file]`
+`ffmpeg -f concat -safe 0 -i concat -vsync passthrough [output file]`
 You can add ffmpeg options, but these are required.
 
 # re-encode with constant fps
